@@ -1,0 +1,107 @@
+.calculator {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #504D53;
+    width: 440px;
+    height: 100%;
+    border-radius: 17px;
+    border: 1px solid #070807;
+    --border-color: rgb(151, 149, 152, 0.7);
+    box-shadow:-1px -1px 1px 1px var(--border-color) inset, 1px 1px 1px 1px var(--border-color) inset, 1px 1px 7px 7px #c8c6cc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.controlButtons {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.close, .minimize, .maximize {
+    border: none;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.close {
+    background-color: #FF5F56;
+}
+
+.minimize {
+    background-color: #FEBC2D;
+}
+
+.maximize {
+    background-color: #28C83F;
+}
+
+.displayNumbers {
+    height: 110px;
+    text-align: end;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 2.5;
+}
+
+.textNumbers {
+    color: #F2F2F1;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+.lastRow {
+    margin-bottom: 0px;
+}
+
+.row .darkButton {
+    background-color: #626166;
+}
+
+.row .brightButton {
+    background-color: #7D7B7F;
+}
+
+.row .opButton {
+    background-color: #FF9F17;
+    box-shadow: -4px 0 1px -2px var(--border-color) inset;
+}
+
+.row .limitLeft {
+    box-shadow: 4px 0 1px -2px var(--border-color) inset;
+}
+
+.row .limitBottom{
+    box-shadow: 0 -4px 1px -2px var(--border-color) inset;
+}
+
+.row button {
+    background-color: #28C83F;
+    border: none;
+    margin-right: -3px;
+    width: calc(25% - 0.7px);
+    height: 90px;
+    color: #EBEBED;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.row .equalButton {
+    border-end-end-radius: 17px;
+    box-shadow: 0 -4px 1px -2px var(--border-color) inset, -4px 0 1px -2px var(--border-color) inset;
+}
+
+.row .zero {
+    width: calc(49.9%);
+    border-end-start-radius: 17px;
+    box-shadow: 4px 0 1px -2px var(--border-color) inset, 0 -4px 1px -2px var(--border-color) inset;
+}
