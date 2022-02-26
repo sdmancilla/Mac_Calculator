@@ -4,7 +4,7 @@
     background-color: #504D53;
     width: 440px;
     height: 100%;
-    border-radius: 17px;
+    border-radius: 20px;
     border: 1px solid #070807;
     --border-color: rgb(151, 149, 152, 0.7);
     box-shadow:-1px -1px 1px 1px var(--border-color) inset, 1px 1px 1px 1px var(--border-color) inset, 1px 1px 7px 7px #c8c6cc;
@@ -96,12 +96,12 @@
 }
 
 .row .equalButton {
-    border-end-end-radius: 17px;
+    border-end-end-radius: 20px;
     box-shadow: 0 -4px 1px -2px var(--border-color) inset, -4px 0 1px -2px var(--border-color) inset;
 }
 
 .row .zero {
     width: calc(49.9%);
-    border-end-start-radius: 17px;
+    border-end-start-radius: 20px;
     box-shadow: 4px 0 1px -2px var(--border-color) inset, 0 -4px 1px -2px var(--border-color) inset;
 }
